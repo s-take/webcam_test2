@@ -1,18 +1,18 @@
-# webrtc test 002
+# webcam test 002
 
-## ŠT—v
-ƒJƒƒ‰‚ÅB‰e‚µ‚½‰æ‘œ‚ğWebSocketŒo—R‚Å•Êƒy[ƒW‚É•\¦‚·‚é
+## æ¦‚è¦
+ã‚«ãƒ¡ãƒ©ã§æ’®å½±ã—ãŸç”»åƒã‚’WebSocketçµŒç”±ã§åˆ¥ãƒšãƒ¼ã‚¸ã«è¡¨ç¤ºã™ã‚‹
 
-### €”õ
+### æº–å‚™
     bundle install --path .bundle
 
-### ƒT[ƒo‹N“®
+### ã‚µãƒ¼ãƒèµ·å‹•
     bundle exec rackup -p 3000 -E production -s thin
 
-### Ú‘±æURL
+### æ¥ç¶šå…ˆURL
 
-#### ƒJƒƒ‰
+#### ã‚«ãƒ¡ãƒ©
 http://localhost:3000
 
-#### •\¦
+#### è¡¨ç¤º
 http://localhost:3000/view
