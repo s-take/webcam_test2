@@ -1,0 +1,102 @@
+=== 0.3.3 2013-10-05
+
+* MIT license
+
+=== 0.3.2 2013-10-04
+
+* bugfix for channel push
+
+=== 0.3.1 2013-10-03
+
+* bugfix of push
+
+=== 0.3.0 2013-10-02
+
+* get client address with Sinatra::RocketIO::ClientInfo#address
+
+=== 0.2.6 2013-05-27
+
+* JS Lib for browser
+* allow cross-domain access to /rocketio/settings
+
+=== 0.2.5 2013-05-26
+
+* add function RocketIO::Client#wait
+* enable/disable websocket by ENV["WEBSOCKET"]=disable
+
+=== 0.2.4 2013-05-23
+
+* bugfix RocketIO start process
+* add classic style sample app
+* update gem dependencies
+
+=== 0.2.3 2013-04-03
+
+* bugfix setting
+
+=== 0.2.2 2013-04-03
+
+* print invalid setting error
+* set :cometio, :post_interval => 2
+
+=== 0.2.1 2013-04-01
+
+* bugfix client connect event
+
+=== 0.2.0 2013-03-31
+
+* add "channel" for grouping clients
+* update tests
+* Sinatra::RocketIO.sessions
+* use Sinatra::RocketIO::ClientInfo in server side events
+
+=== 0.1.2 2013-03-25
+
+* retry get /rocketio/settings
+
+=== 0.1.1 2013-03-25
+
+* ruby client - use comet if websocket port close
+* fix sample cui_chat_client
+
+=== 0.1.0 2013-03-24
+
+* add ruby client library - Sinatra::RocketIO::Client
+* add route /rocketio/settings
+
+=== 0.0.9 2013-03-21
+
+* bugfix javascrip websocket error in push() before connect
+
+=== 0.0.8 2013-03-20
+
+* bugfix gem dependencies
+* dispatch "start" event on eventmachine and websocket server start
+
+=== 0.0.7 2013-03-19
+
+* not push to unexist client
+
+=== 0.0.6 2013-03-19
+
+* update event_emitter.js v0.0.7
+
+=== 0.0.5 2013-03-18
+
+* fix gem load flow
+
+=== 0.0.4 2013-03-18
+
+* fix gem dependencies
+
+=== 0.0.3 2013-03-18
+
+* delete routes of cometio.js and websocketio.js
+
+=== 0.0.2 2013-03-18
+
+* sinatra config - set :rocketio, :cometio => true, :websocket => true
+
+=== 0.0.1 2013-03-17
+
+* first release
